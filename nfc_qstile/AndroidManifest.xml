@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.settings.nfc_qstile"
+    android:sharedUserId="android.uid.system">
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24"/>
+    <uses-permission android:name="android.permission.STATUS_BAR_SERVICE"/>
+    <application
+        android:label="@string/application_label"
+        android:allowBackup="true"
+        android:process="com.android.settings">
+        <service
+            android:name=".NfcTile"
+            android:label="@string/service_label"
+            android:icon="@drawable/nfc_messagecenter_icon_hl"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name="FakeActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:noHistory="true"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
