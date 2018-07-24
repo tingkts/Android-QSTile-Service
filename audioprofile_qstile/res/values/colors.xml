@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="system_primary_color_tpv">#ff384248</color>
+    <color name="audio_profile_quick_settings_dialog_text_color">#ffb6c0c7</color>
+</resources>

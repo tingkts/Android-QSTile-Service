@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Setări</string>
+    <string name="audio_profile">Profiluri audio</string>
+    <string name="normal">General</string>
+    <string name="meeting">Întâlnire</string>
+    <string name="mute">"Silențios"</string>
+    <string name="outdoor">În aer liber</string>
+</resources>

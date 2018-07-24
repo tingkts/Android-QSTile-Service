@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Настройки</string>
+    <string name="audio_profile">Аудиопрофили</string>
+    <string name="normal">Общи</string>
+    <string name="meeting">Среща</string>
+    <string name="mute">"Тихрежим"</string>
+    <string name="outdoor">Навън</string>
+</resources>

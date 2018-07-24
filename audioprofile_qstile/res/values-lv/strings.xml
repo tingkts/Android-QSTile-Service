@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Iestatījumi</string>
+    <string name="audio_profile">Audioprofili</string>
+    <string name="normal">Vispārīgi</string>
+    <string name="meeting">Sapulce</string>
+    <string name="mute">"Klusums"</string>
+    <string name="outdoor">Ārpustelpām</string>
+</resources>
